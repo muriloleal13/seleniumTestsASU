@@ -2,9 +2,16 @@
 
 const { describe, it, after, before } = require('mocha');
 const Page = require('../lib/home_page');
-const assert = require('assert');
+// const assert = require('assert');
 
-(async function tests(){
+const chai = require('chai');
+const expect = chai.expect;
+const chaiAsPromised = require('chai-as-promised');
+chai.use(chaiAsPromised);
+
+process.on('unhandledRejection', () => {});
+
+(async function example(){
   try {
     describe('testing', () => {
 
@@ -22,13 +29,13 @@ const assert = require('assert');
       
       it('test #1 - submit get started today', async () => {
         const result = await page.checkSelects();
-        assert.ok(result);
+        expect(result).to.equal(true);
       });
     
     });
-
   } catch (ex){
     console.log (new Error(ex.message));
   } finally {
+    console.log('saindo');
   }
 });
