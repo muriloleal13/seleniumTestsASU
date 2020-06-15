@@ -1,7 +1,21 @@
 module.exports = {
+  divAgree: '.cc-window',
+  btnAgree: '.cc-btn',
   selectDegree: '#degree-type>option:nth-child(2)',
   selectArea: '#interest-area>option:nth-child(12)',
   selectProgram: '#program>option:nth-child(7)',
   btnStarted: '#asuo-rfi > div > div.row.no-gutters > div > div > button',
-  divResult: '#phone-number-group'
+  divResult: '#step-2-form-fields',
+  navNewsRoom: '#app > div.nav-strip.sticky-top > div > div > div > nav > ul > li:nth-child(6) > a',
+  txtNewsRoom: '#newsroom-home-search',
+  btnNewsRoom: '#search-submit',
+  searchPage: '#search-page',
+  navCost: '#app > div.nav-strip.sticky-top > div > div > div > nav > ul > li:nth-child(3) > a',
+  cardCost: '#best-buy > div > div > div:nth-child(1)',
+  titleCard: '#best-buy > div > div > div:nth-child(1) > div.card-title',
+  navAbout: '#about-5',
+  btnAbout: '#main-content > div.container.about-container > div.element-left > div > a.ext.nav-item',
+  divAbout: '#block-block-9 > div > div > div',
+  linkAbout: '#block-block-9 > div > div > div > div.alertbody > p > a:nth-child(1)',
+
 };
