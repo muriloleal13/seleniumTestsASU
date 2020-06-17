@@ -23,5 +23,5 @@ module.exports = {
   navOnlineDegrees: '#online-degrees-0',
   inputSearch: '#programs-search',
   optionMain: '#__BVID__10 > option:nth-child(3)',
-
+  navMain: '#app > div.nav-strip.sticky-top > div > div > div > nav'
 };
