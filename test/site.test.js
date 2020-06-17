@@ -79,7 +79,7 @@ process.on('unhandledRejection', () => {});
       it('test #09 - non degree > input search', async () => {
         const result = await page.inputSearch();
         equal(result.inputTitle, 'Search');
-        equal(result.placeholder, 'Search');
+        equal(result.inputPlaceHolder, 'Search');
       });
 
       it('test #10 - option main', async () => {
