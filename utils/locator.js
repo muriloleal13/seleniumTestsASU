@@ -17,5 +17,11 @@ module.exports = {
   btnAbout: '#main-content > div.container.about-container > div.element-left > div > a.ext.nav-item',
   divAbout: '#block-block-9 > div > div > div',
   linkAbout: '#block-block-9 > div > div > div > div.alertbody > p > a:nth-child(1)',
+  infoAccolades: '#home-accolades > div.bg-light > div > div:nth-child(2) > div:nth-child(1) > h3',
+  imgAccolades: '#home-accolades > div.bg-light > div > div.row.mb-space-xl > div.col-lg-4.d-none.d-lg-block > img',
+  divImg: '#content > section.bg-white.py-space-lg.py-lg-space-xxl > div > div:nth-child(2) > div > div:nth-child(1) > div > div.col-12.col-md-5.position-relative.cih-bg-image.cih-lazy',
+  navOnlineDegrees: '#online-degrees-0',
+  inputSearch: '#programs-search',
+  optionMain: '#__BVID__10 > option:nth-child(3)',
 
 };
