@@ -1,9 +1,9 @@
 'use strict';
-// --reporter mochawesome --reporter-options autoOpen=true
+
 const { describe, it, after, before } = require('mocha');
 const Page = require('../lib/home_page');
 const assert = require('assert');
-const { equal, ifError } = require('assert');
+const { equal } = require('assert');
 const { deepStrictEqual } = require('assert').strict;
 
 process.on('unhandledRejection', () => {});
@@ -96,7 +96,6 @@ process.on('unhandledRejection', () => {});
 
       it('test #12 - nav cost', async () => {
         const result = await page.navMain();
-        console.log(result);
         equal(result.navRole, 'navigation');
         equal(result.navTagName, 'nav')
       });

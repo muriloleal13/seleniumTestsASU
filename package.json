@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test --reporter mochawesome --reporter-options autoOpen=true"
   },
   "author": "Murilo Leal",
   "license": "ISC",
