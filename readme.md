@@ -1,32 +1,51 @@
-# Selenium Web Driver com JS e NodeJS
+# Automated testing with Node.js and Selenium Webdriver
 
-Trabalho desenvolvido para a disciplina de Qualidade de Software da Universidade Federal de Santa Maria
+College project to Software Quality course of Computer Science Program at Universidade Federal de Santa Maria.
 
-## Começando 🚀
+## Getting Started 🚀
 
-_Estas instruções te permitirão obter uma cópia do projeto na sua máquina local._
+_Automated testing with Node.js and Selenium Webdriver._
 
-### Pré-requisitos 📋
+### Requirements 📋
 
-_Node Js._
+_Node.js._
 
-_Driver do Firefox._
+_Geckodriver (for firefox)._ [Tutorial](https://youtu.be/fj0Ud16YJJw?t=110) _until 5:45_
 
-### Instalação 🔧
+### Run Application 🔧
 
-_Instalar os módulos do node na pasta._
+_Clone the repository._
 
 ```sh
-npm i node
+git clone https://github.com/muriloleal13/seleniumTestsASU
 ```
 
-## Executando os testes ⚙️
+_Install dependencies._
 
-_Com o prompt de comando aberto deve ser executado o comando._
+```sh
+npm i faker@4.1.0 mocha@7.2.0 mochawesome@6.1.1 selenium-webdriver@4.0.0-alpha.7 --save-dev --unsafe-perm=true --allow-root
+```
+
+## Run Test ⚙️
 
 ```sh
 npm test
 ```
+
+## Folder Structure 🛠️
+
+    ├── ...
+    │
+    ├── lib                         # Helper methods
+    │   ├── base_page.js            # Generic functionality for tests
+    │   └── home_page_.js           # Home page testing functionality
+    │
+    ├── test                        # Test suite
+    │   └── site.test.js            # Testing in home page
+    │
+    ├── utils                       # Utility files for testing
+    │   ├── fake_data.js            # Generating random keyword for searching
+    │   └── locator.js              # CSS identifier for elements to test
 
 ## Autor ✒️
 
